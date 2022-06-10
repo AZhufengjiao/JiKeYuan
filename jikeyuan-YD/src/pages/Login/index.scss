@@ -1,0 +1,54 @@
+.login-nav-bar{
+  position: relative;
+  height: 46px;
+}
+.wrapper .adm-space{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 16px;
+}
+
+.wrapper{
+  padding: 0 30px;
+  .wrapper-h3{
+    padding: 30px 0;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .adm-form{
+    --border-top: solid 0px var(--adm-border-color);
+  --border-bottom: solid 0px var(--adm-border-color);
+}
+}
+.code-box{
+display: flex;
+span{
+font-size: 14px;
+width: 118px;
+color: #969799;
+}
+}
+.adm-list-item-content,.adm-list-item{
+padding: 0;
+}
+.adm-form{
+padding: 30px 0;
+}
+.adm-list-item-content-main{
+padding: 18px 0;
+}
+
+// 按钮
+.login-submit{
+height: 50px;
+margin-top: 38px;
+border: none;
+font-size: 16px;
+background: linear-gradient(315deg, #fe4f4f, #fc6627);
+width: 100%;
+color: white;
+}
+.login  .adm-input{
+  background: #fff;
+}

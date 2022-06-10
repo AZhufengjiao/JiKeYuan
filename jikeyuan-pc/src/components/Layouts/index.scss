@@ -1,0 +1,28 @@
+.ant-layout{
+  width: 100%;
+  height: 100%;
+  .ant-layout-header{
+    padding: 0;
+  }
+}
+.login-logo{
+  width: 200px;
+  height: 60px;
+}
+.style-font{
+  fontSize: 16 !important;
+  color:white !important
+}
+
+.ant-layout-content{
+overflow-y: auto;
+}
+
+.example {
+  margin: 20px 0;
+  margin-bottom: 20px;
+  padding: 30px 50px;
+  text-align: center;
+  //background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}

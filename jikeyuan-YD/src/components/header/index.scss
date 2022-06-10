@@ -1,0 +1,19 @@
+.Header{
+  width: 100%;
+  height: 46px;
+  text-align: center;
+  line-height: 46px;
+  font-size: 16px;
+  border-bottom:2px solid #f7f8f9 ;
+}
+.Header::before{
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: solid #333;
+  border-width: 1px 0 0 1px;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  left: 30px;
+  top: 22px;
+}

@@ -1,0 +1,33 @@
+.adm-nav-bar{
+  border-bottom: 1px solid #ebedf0;
+}
+
+.message_list{
+  width: 100%;
+  box-sizing: border-box;
+  p{
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .video{
+    position: relative;
+  }
+  video{
+    border-radius: 6px;
+  }
+  .video video{
+    width: 100%;
+  }
+  .i{
+    font-size: 34px;
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  span{
+    color: #999999;
+    font-size: 12px;
+  }
+}

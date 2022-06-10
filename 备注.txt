@@ -1,0 +1,38 @@
+极客园PC端后台管理系统
+  参考笔记: http://toutiao.itheima.net/react/index.html#/zh-CN/geek-pc
+  接口文档: http://toutiao.itheima.net/api-pc.html
+  演示地址: http://geek-pc.itheima.net/login
+  仓库地址: https://gitee.com/zqran/geek-pc-89
+  万能账号: 13911111111 万能验证码: 246810
+
+极客园移动端(个人自媒体前台):
+  参考笔记: http://toutiao.itheima.net/react/index.html#/zh-CN/h5
+  接口文档: http://toutiao.itheima.net/api.html
+  演示地址: http://geek.itheima.net/
+  仓库地址: https://gitee.com/zqran/geek-h5-89
+
+以上两端数据互通, 在后台发布的数据, 在前端可以展示
+短信验证码测试: http://toutiao.itheima.net/
+接口基准地址: http://toutiao.itheima.net/v1_0
+
+PC 端
+  第一天:
+    1. 登录、退出
+    2. 内容管理 -> 列表展示、列表分页、删除文章
+  第二天:
+    1. 发布文章、编辑文章、内容筛选
+
+移动端
+  第三天:
+    1. 项目准备
+    2. 登录模块
+    3. 布局页面
+  第四天:
+    1. 个人中心 (选择性实现, 不需实现重复功能)
+    2. 首页
+  第五天: 
+    1. 搜索
+  第六天:
+    1. 文章详情
+
+

@@ -1,0 +1,60 @@
+.todo{
+  width: 100%;
+  overflow: hidden !important;
+
+  h3{
+    font-weight: 500;
+    margin-bottom: 10px;
+    height: 23px;
+    overflow: hidden;
+  }
+  .div_pl span{
+    color: #999;
+    font-size: 12px;
+  }
+}
+
+.imagesContainer {
+  --adm-image-width:100%;
+  --adm-image-height: 70px;
+}
+
+.dis{
+  display: inline-block;
+}
+.w{
+  float: left;
+  width: 68%;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.imagesContainer .adm-space-item{
+  width: 102px;
+}
+
+.div_pl{
+  float: left;
+  width: 70%;
+  padding-right: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  h3{
+    width: 100%;
+    overflow: hidden;
+    /*  超出的文本隐藏 */
+
+    display: -webkit-box;
+    /* 将对象作为弹性伸缩盒子模型显示。 */
+
+    -webkit-line-clamp: 2;
+    /* 这个属性不是css的规范属性，需要组合上面两个属性，表示显示的行数。 */
+
+    -webkit-box-orient: vertical;
+    /* 从上到下垂直排列子元素（设置伸缩盒子的子元素排列方式） */
+    height: 42px;
+  }
+}
+.adm-list{
+  overflow-y: auto;
+  height: 572px;
+}

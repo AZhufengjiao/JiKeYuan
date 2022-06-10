@@ -1,0 +1,68 @@
+.home-box{
+  height: 100%;
+}
+.home{
+  width: 100%;
+  height: 100%;
+  .search-bar{
+    height: 41px;
+    width: 86px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    position: absolute;
+    top: -3px;
+    right: 0;
+    line-height:42px;
+    z-index: 1000;
+    background-color: white;
+
+    &:before {
+      content: "";
+      width: 0.53333rem;
+      height: 100%;
+      position: absolute;
+      left: -0.53333rem;
+      top: 0;
+      background: linear-gradient(270deg,#fff,hsla(0,0%,100%,.3));
+    }
+  }
+}
+.van-tabs[data-v-e659c932] .van-tabs__wrap .van-tabs__line{
+  background-color: #fc6627 !important;
+  width: 0.8rem !important;
+}
+.adm-tabs-header{
+  box-shadow: 0 0.05333rem 0.05333rem #f0f0f0;
+}
+.adm-tabs-tab-list .adm-tabs-tab-line{
+  background-color: #fc6627;
+  width: 0.8rem;
+  height: 0.18rem;
+}
+.adm-tabs-tab{
+  color: #9ea1ae;
+  font-size: 0.85333rem;
+}
+.adm-tabs-tab-active {
+  color: #333 !important;
+  font-size: 18px  ;
+  padding: 0 0.32rem;
+}
+.adm-tabs-header{
+  height: 43px;
+}
+.adm-tabs-tab-list{
+  height: 100%;
+  padding-right: 86px;
+}
+
+.adm-tabs-content {
+  height: 572px;
+  padding: 0;
+  overflow-y: auto;
+}
+.adm-pull-to-refresh{
+  height: 572px;
+}
+

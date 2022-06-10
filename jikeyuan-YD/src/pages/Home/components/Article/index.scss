@@ -1,0 +1,153 @@
+.Article{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+}
+.Article_content{
+  flex: 1;
+  overflow-y: auto;
+  background: #f7f8fa;
+}
+.Article_box{
+  padding: 10px 15px;
+  background: white;
+  p{
+    font-size: 21px;
+    margin-top: 10px;
+  }
+  .span{
+    color: #a5a6ab;
+    font-size: 12px;
+    padding: 10px 0;
+  }
+  .Article_personal{
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    margin-top: 12px;
+    padding-bottom:28px;
+    border-bottom: 1px solid #ebedf0;
+
+    span{
+      flex: 1;
+      font-size: 16px;
+    }
+    .Article_personal_gz{
+      width: 60px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      background: #fc6627;
+      color: white;
+      border-radius: 16px;
+    }
+  }
+}
+.Article_personal_left_img{
+float: left;
+  width: 34px;
+  height: 34px;
+  img{
+    width: 100%;
+    height:  100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+.Article_code{
+  width: 100%;
+  padding: 7px 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: white;
+  .Article_code_botton{
+    float: right;
+    color: #a5a6ab;
+    font-size: 12px;
+    margin: 24px 0;
+  }
+}
+
+.Article_comment{
+  .Article_comment_box{
+    width: 100%;
+    margin-top: 10px;
+    background: white;
+    box-sizing: border-box;
+    padding: 16px 15px;
+    border-bottom: 1px solid #fbfcfc;
+    .Article_comment_left{
+      font-size: 16px;
+    }
+    .Article_comment_right{
+      color: #a5a6ab;
+      float: right;
+    }
+  }
+  .Article_comment_bon{
+    background-color:white ;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #969799;
+    img{
+      width: 160px;
+      height: 160px;
+    }
+  }
+}
+
+.Article_dz{
+  box-sizing: border-box;
+  width: 100%;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border-top: 1px solid #f3f5f6;
+  .Article_dz_q{
+    flex: 1 1;
+    background: #f7f8fa;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 18px;
+    padding: 0 12px;
+    color: #c8c9cc;
+  }
+  .Article_dz_p{
+    padding: 0 10px;
+    text-align: center;
+    color: #595769;
+    font-weight: 500;
+    span{
+      font-size: 14px;
+    }
+  }
+}
+
+.position{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  .position_img{
+    width: 23px;
+    height: 23px;
+  }
+  .name{
+    font-size: 14px;
+  }
+  .gz{
+    font-size: 12px;
+    color: #fc6627;
+  }
+  .shu{
+    border-left: 1px solid #bfc2cb;
+    width: 1px;
+    height: 10px;
+  }
+}

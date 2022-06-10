@@ -1,0 +1,41 @@
+.adm-search-bar-active .adm-search-bar-input-box {
+  border:none;
+  background: #f7f8fa;
+  //--placeholder-color: var(--color);
+}
+.Search .adm-search-bar{
+  --border-radius: 30px;
+
+}
+.Search .adm-nav-bar{
+  border-bottom: 1px solid #ebedf0;
+}
+
+.list{
+  position: fixed;
+  width: 100%;
+  padding: 0 10px;
+  display: none;
+  span{
+    color: red;
+  }
+}
+.adm-list-header{
+  position: relative;
+}
+.icon{
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  font-size: 16px;
+}
+
+.showZ{
+  z-index: 99;
+  display: block;
+}
+.show{
+  display: block;
+}
+
+

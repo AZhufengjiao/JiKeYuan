@@ -1,0 +1,33 @@
+.ArticleItem{
+  width: 100%;
+  overflow: hidden !important;
+
+  h3{
+    font-weight: 500;
+    margin-bottom: 10px;
+    height: 23px;
+    overflow: hidden;
+  }
+  .div_pl span{
+    color: #999;
+    font-size: 12px;
+  }
+}
+
+.imagesContainer {
+  --adm-image-width:100%;
+  --adm-image-height: 70px;
+}
+
+.dis{
+  display: inline-block;
+}
+.w{
+  float: left;
+  width: 68%;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.imagesContainer .adm-space-item{
+  width: 102px;
+}
